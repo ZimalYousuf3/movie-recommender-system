@@ -3,7 +3,7 @@
 A movie recommendation engine built on the MovieLens (ml-latest-small) dataset, exploring three different recommendation strategies and combining them into a single hybrid model.
 
 ## Workflow
-
+ 
 - Loaded and explored `movies.csv` and `ratings.csv`, checked for missing values
 - Merged movies and ratings into a combined dataframe for collaborative analysis
 - **Content Based Filtering** — vectorized movie genres using `TfidfVectorizer`, and used `cosine_similarity` to recommend movies with similar genre profiles
